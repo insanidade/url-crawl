@@ -20,6 +20,7 @@ public class App
 	public static void main(String[] args) throws Exception {
 		FindManager manager = new FindManager();
 		URL inputUrl = new URL(args[0]);
+		
         BufferedReader in = new BufferedReader(new InputStreamReader(inputUrl.openStream()));
 
         String inputLine;
