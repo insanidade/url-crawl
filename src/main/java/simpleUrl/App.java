@@ -37,7 +37,7 @@ public class App
         while ((inputLine = in.readLine()) != null){
         	
         	findUrl(inputLine);
-        	
+        	//System.out.println("teste");
         }            
         in.close();
     }
